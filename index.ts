@@ -1,6 +1,5 @@
-//export { default as PrimaryButton } from './atoms/button/button';
 // ATOMS
-export { PrimaryButton } from './atoms/primary-button/primary-button';
+export { PrimaryButton } from './lib/components/atoms/primary-button';
 
 // MOLECULES
-export { TextAndButton } from './molecules/text-and-button/text-and-button';
+export { TextAndButton } from './lib/components/molecules/text-and-button';

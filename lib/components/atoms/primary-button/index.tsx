@@ -1,4 +1,5 @@
-import { Button } from '@mui/material'
+import { Button } from '@mui/material';
+import styles from './styles.module.css';
 
 interface PrimaryButtonProps {
   onClick: () => void
@@ -16,13 +17,9 @@ export const PrimaryButton = ({
     console.log('Hizo click');
     onClick?.()
   };
-  return ( 
-    <Button
-      variant={variant}
-      color={color}
-      onClick={handleClick}>
+  return (
+    <Button className={styles.btn_color} variant={variant} color={color} onClick={handleClick}>
       {text}
     </Button>
-         );
+  );
 };
-

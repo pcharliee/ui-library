@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "ES2020",
+    "module": "ESNext",
     "strict": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "lib": [
+      "ES2020",
       "dom",
       "dom.iterable",
       "esnext"
@@ -14,9 +15,11 @@
     "skipLibCheck": true,
     "noEmit": true,
     "incremental": true,
-    "moduleResolution": "node",
+    /* BUNDLER MODE */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
   },
   "include": [
     "next-env.d.ts",
