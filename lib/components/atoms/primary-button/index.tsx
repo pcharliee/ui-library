@@ -1,4 +1,5 @@
-import { Button } from '@mui/material';
+import { Button, ThemeProvider } from '@mui/material';
+import { theme } from '../../../../theme';
 import styles from './styles.module.css';
 
 interface PrimaryButtonProps {
@@ -18,8 +19,10 @@ export const PrimaryButton = ({
     onClick?.()
   };
   return (
-    <Button className={styles.btn_color} variant={variant} color={color} onClick={handleClick}>
-      {text}
-    </Button>
+    <ThemeProvider theme={theme}>
+      <Button className={styles.btn_color} variant={variant} color={color} onClick={handleClick}>
+        {text}
+      </Button>
+    </ThemeProvider>
   );
 };

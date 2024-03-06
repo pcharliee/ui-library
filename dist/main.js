@@ -1,8 +1,6 @@
-import { P as r } from "./index-C3vU3yA9.mjs";
-import { Title as m } from "./components/atoms/title/index.js";
-import { TextAndButton as f } from "./components/molecules/text-and-button/index.js";
+import { P as r } from "./index-BiaOO6BU.mjs";
+import { TextAndButton as m } from "./components/molecules/text-and-button/index.js";
 export {
   r as PrimaryButton,
-  f as TextAndButton,
-  m as Title
+  m as TextAndButton
 };

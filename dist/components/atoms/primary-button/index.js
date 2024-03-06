@@ -1,5 +1,6 @@
 import "react/jsx-runtime";
-import { P as m } from "../../../index-C3vU3yA9.mjs";
+import "@mui/material";
+import { P as i } from "../../../index-BiaOO6BU.mjs";
 export {
-  m as PrimaryButton
+  i as PrimaryButton
 };

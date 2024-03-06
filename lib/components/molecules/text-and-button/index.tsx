@@ -1,5 +1,6 @@
 import { PrimaryButton } from '../../atoms/primary-button';
-import { Typography } from "@mui/material";
+import { Typography, ThemeProvider } from "@mui/material";
+import { theme } from '../../../../theme';
 import styles from './styles.module.css';
 
 interface TextAndButtonProps {
@@ -24,7 +25,7 @@ export const TextAndButton = ({
   };
 
   return (
-    // <ThemeProvider heme={theme}>
+    <ThemeProvider theme={theme}>
       <div className={styles.container}>
         <Typography className={styles.title} variant='h5'>{label}</Typography>
         <PrimaryButton 
@@ -33,6 +34,6 @@ export const TextAndButton = ({
           variant={variant}
           color={color} />
       </div>
-    // </ThemeProvider>
+    </ThemeProvider>
   );
 };
