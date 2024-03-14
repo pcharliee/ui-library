@@ -1,6 +1,6 @@
 import { PrimaryButton } from '../../atoms/primary-button';
 import { Typography, ThemeProvider } from "@mui/material";
-import { theme } from '../../../../theme';
+import { theme } from '../../../theme';
 import styles from './styles.module.css';
 
 interface TextAndButtonProps {
