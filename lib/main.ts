@@ -1,5 +1,2 @@
-// ATOMS
-export { PrimaryButton } from './components/atoms/primary-button';
-
-// MOLECULES
-export { TextAndButton } from './components/molecules/text-and-button';
+// export { CustomProvider } from './themeProvider';
+export { PrimaryButton } from './components/atoms/button'
