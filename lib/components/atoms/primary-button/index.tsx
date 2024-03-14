@@ -1,5 +1,6 @@
+import React from 'react';
 import { Button, ThemeProvider } from '@mui/material';
-import { theme } from '../../../../theme';
+import { theme } from '../../../theme';
 import styles from './styles.module.css';
 
 interface PrimaryButtonProps {
